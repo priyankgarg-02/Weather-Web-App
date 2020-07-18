@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather App by Priyank Garg</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="weather_style.css" />
+    
+</head>
+<body>
+    <section class="topsection">
+        <div class="banner">
+                <h1 class="headng">Weather Application</h1>
+                <p class='credit'><span><small>Made by Priyank Garg</small></span></p>
+                <form >
+                        <div class="input">
+                                <input type="text" name="inputcity" id="inputcity" class="inputcity" placeholder='Enter  the city'>
+                                <span class="msg"></span>
+                                <div class="button">
+                                      <input type="button" value="SUBMIT" class='inputbutton' onclick='provideWeather()'>
+                                </div>
+                                
+                                
+                              </div>
+
+                </form>
+                
+
+
+        </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="display">
+                <div class="weather_icon">
+                    <img src='my_icons/unknown.png' alt="">
+                </div>
+        
+                <h1 class='cityname'> </h1>
+                <div class="tempval">
+                        <p class="temp"></p>
+
+                </div>
+                
+                <div class="desc">
+                     <p class="description"></p>
+                     
+                    </div>
+               
+                
+            </div>
+
+
+    </section>
+    
+    <script src="weather_app.js"></script>
+</body>
+</html>
