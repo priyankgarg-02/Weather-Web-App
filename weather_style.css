@@ -17,12 +17,14 @@ body{
     padding: 50px;
     background-color: rgb(100, 200, 100);
     color: #040b6d;
+    max-width: 100%;
 }
 .input{
     border:none;
     background: none;
     color: inherit;
     outline: none;
+    max-width: 100%;
 
 }
 .banner{
@@ -30,7 +32,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    
+    max-width: 100%;
 }
 .headng
 {
@@ -39,6 +41,7 @@ body{
     font-size: 3rem;
     padding: 0 0 10px 0;
     letter-spacing: 0.02em;
+    max-width: 100%;
 
 
 }
@@ -57,10 +60,12 @@ body{
     position: relative;
     top: 15px;
     left:180px;
+    max-width: 100%;
 
 }
 .inputbutton:hover{
     background: rgb(209, 94, 17);
+    max-width: 100%;
 }
 .inputcity
 {
@@ -74,6 +79,7 @@ body{
     font-size: 1.5rem;
     border-bottom: solid;
     padding: 5px 5px 5px 10px;
+    max-width: 100%;
 }
 .inputcity placeholder
 {
@@ -83,6 +89,7 @@ body{
     position: relative;
     left:315px;
     bottom: 10px;
+    max-width: 100%;
 }
 .display{
     background-color: #fff;
@@ -90,22 +97,27 @@ body{
     height: 125%;
     margin-left: 520px;
     border-radius: 10px;
+    max-width: 100%;
    
 }
 .weather_icon{
     
     padding-left: 80px;
+    max-width: 100%;
 }
 .cityname{
     
     padding-left: 80px;
+    max-width: 100%;
 }
 .tempval{
     
     padding-left: 80px;
+    max-width: 100%;
 }
 .description{
     
     padding-left: 80px;
     padding-bottom: 50px;
+    max-width: 100%;
 }
