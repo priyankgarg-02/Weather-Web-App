@@ -86,6 +86,7 @@ function displayweather()
 
     document.addEventListener("DOMContentLoaded", function()
     {
+       // alert("hi");
         
         var temp=document.querySelector(".tempval p");
         
